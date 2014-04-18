@@ -1,0 +1,50 @@
+ul li span {
+	font-size:12px !important;
+}
+
+ul.location-picker {
+    display: block;
+    margin-left: 35px !important;
+}
+ul.location-picker li {
+	font-family: "SamsungCondensedRegular", sans-serif;
+	font-size: 18px;
+	margin: 0px !important;
+        list-style: decimal !important;        
+        float: left;
+        clear: both;
+}
+ul.location-picker li:before {
+    float: left;
+    content: '' !important;
+    left: auto !important;
+    top: 5px !important;
+}
+ul.location-picker li a {
+	display: inline-block;
+	color: #0c4da2;
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 5px;
+}
+ul.location-picker li a:hover {
+	color: #fff;
+	background-color: #0c4da2;
+}
+
+div#offers-page {
+	position: relative;
+}
+div#ie-fix {
+	background-color: #FFF;
+	width: 10px;
+	height: 200px;
+	left: -12px;
+	position: absolute;
+}
+div#loading {
+    background-image: url("/RecruitmentList/Css/loading.gif");
+    width:35px;
+    height:35px;
+    margin:0 auto;
+}

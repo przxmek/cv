@@ -1,76 +1,76 @@
-\documentclass[10pt,a4paper,sans]{moderncv}        
+\documentclass[11pt,a4paper,sans]{moderncv}
 % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 % moderncv themes
-\moderncvstyle{casual}                             
+\moderncvstyle{casual}
 % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{purple}                               
+\moderncvcolor{purple}
 % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
-%\renewcommand{\familydefault}{\sfdefault}         
+%\renewcommand{\familydefault}{\sfdefault}
 % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
-%\nopagenumbers{}                                  
+%\nopagenumbers{}
 % uncomment to suppress automatic page numbering for CVs longer than one page
 
 % character encoding
-\usepackage[utf8]{inputenc}                       
+\usepackage[utf8]{inputenc}
 % if you are not using xelatex ou lualatex, replace by the encoding you are using
 
 % adjust the page margins
-\usepackage[scale=0.78]{geometry}
-%\setlength{\hintscolumnwidth}{3cm}                
+\usepackage[scale=0.8]{geometry}
+%\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}
 % if you want to change the width of the column with the dates
 
-%\setlength{\makecvtitlenamewidth}{10cm}           
+%\setlength{\makecvtitlenamewidth}{10cm}
 % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
 \name{Przemysław}{Kuczyński}
-\title{Software Engineer}                               
-\address{ul. W. Okińskiego 1 m. 68}{02-115 Warsaw}{Poland}
-\phone[mobile]{(+48)~609~368~705}                   
-%\phone[fixed]{+2~(345)~678~901}                    
-%\phone[fax]{+3~(456)~789~012}                      
-\email{p.kuczynski@student.uw.edu.pl}    
-%\email{contact@pkuczynski.pl}                      
-%\homepage{www.pkuczynski.pl}
+\title{Software Engineer}
+\address{ul. W. Okińskiego 1/68}{02-115 Warsaw}{Poland}
+\phone[mobile]{(+48)~609~368~705}
+%\phone[fixed]{+2~(345)~678~901}
+%\phone[fax]{+3~(456)~789~012}
+\email{p.kuczynski@student.uw.edu.pl}
+%\email{przemek@pkuczynski.pl}
+\homepage{www.pkuczynski.pl}
 %\extrainfo{additional information}
-\photo[64pt][0.2pt]{photo}                       
+%\photo[80pt][0.2pt]{photo.jpg}
 % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
-
-\definecolor{dataprocess}{RGB}{84,84,84}
 
 \begin{document}
 \makecvtitle
 
 \section{Education}
-\cventry{2012 -- \overrightarrow{today}}{Bachelor's Degree in Computer Science}{University of Warsaw}{}{}{}  % arguments 3 to 6 can be left empty
-%\cventry{2009--2012}{Secondary education}{High School No. 1}{Białystok}{}{}
+\cventry{2012 – 2016}{Bachelor of Computer Science}{University of Warsaw}{Graduation July 2016}{}{}  % arguments 3 to 6 can be left empty
+%\cventry{2016 - 2018}{Master of Science}{University of Warsaw}{Computer Science}{}{}
 %\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
 
 \section{Experience}
-%\subsection{Vocational}
+\subsection{Vocational}
+\cventry{Jul - Sep 2014}{Samsung Electronics R\&D Institute Poland}{Trainee}{Development of WebKit project for Samsung Smart TV with Tizen OS platform}{}{}
+
 \subsection{Miscellaneous}
-\cventry{2014}{Indie game development powered by Unity 3D engine}{}{}{}{}
-\cventry{2013}{Modification of MINIX userspace scheduler improving responsiveness of the operating system}{}{}{}{}
-\cventry{2013}{Development of Twitter bot for automated republishing of most popular tweets in specified domain}{}{}{}{}
-\cventry{2012 -- 2013}{Development of PC games using Allegro \& Qt libraries}{}{}{}{}
-\cventry{2008 -- 2012}{Participation in algorithmic contests including Polish olympiad}{}{}{}{Finalist of the 3rd OIG edition (2009)}
+\cventry{2016}{DVP, Data Validation Platform}{(also my Bachelor's thesis)}{Built a complex system for big data processing and storage targeted for the renewable energy market. The platform allowed connecting external modules responsible for refining raw data. For example, the machine learning component can be used to detect wind turbines downtimes}{}{Used technologies: Apache Spark, Apache Ignite, AngularJS, Kafka}
+\cventry{2014}{Open Source contributions for WebKit.org project}{Bug fixes related to WebKit development in Samsung R\&D}{}{}{}
+\cventry{2014}{Game development in team of four using Unity 3D engine}{Unity, C\#}{}{}{}
+\cventry{2013}{TCP/IP Client-Server application for transferring data through the network}{C++, Boost libraries}{The application was capable of live streaming audio between clients which could send or receive data}{}{}
+%\cventry{2012 – 2013}{Development of simple PC games using Allegro \& Qt Libraries}{C++, Allegro, Qt4}{}{}{}
+%\cventry{2011}{Developing basic MVC framework in PHP}{}{}{}{}
+\cventry{2008 – 2012}{Participation in algorithmic contests including Polish Olympiad in Informatics}{}{}{}{Finalist of the 3rd edition of Olimpiada Informatyczna Gimnazjalistów (2009).}
 
 \section{Languages}
 \cvitemwithcomment{Polish}{Mother tongue}{}
-\cvitemwithcomment{English}{Upper intermediate}{}
+\cvitemwithcomment{English}{Fluent}{}
 \cvitemwithcomment{German}{Elementary}{}
 
 \section{Skills}
-\cvitem{Programming Languages}{C/C++, Python, Java}{}{}
-\cvitem{Others}{Design Patterns, Algorithms \& Data structures, Databases, Acquaintance with Git, Linux}{}{}
+\cvitem{Programming Languages}{C/C++, Python, Java, JavaScript}{}{}
+\cvitem{Others}{Algorithms \& Data structures, Design patterns, Databases, Networking \& TCP/IP, Django, AngularJS, Twitter Bootstrap, Linux, Bash, Git, Browsers and Web Multimedia, Android}{}{}
 %\cvdoubleitem{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
 
 \section{Interests}
-\cvitem{}{Sport (especially jogging), Game development, Cinema}
-\cvitem{}{}
+\cvitem{}{Jogging \& active lifestyle, cinema, photography, travels}
+%\cvitem{hobby 2}{Description}
 %\cvitem{hobby 3}{Description}
-
-\textcolor{dataprocess}{Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb obecnych oraz przyszłych procesów rekrutacyjnych prowadzonych przez spółkę Samsung Electronics Polska Sp. z o.o. z siedzibą w Warszawie, zgodnie z przepisami ustawy z dnia 29.08.1997 r. o ochronie danych osobowych (Dz.U. Nr 133, poz. 883 z późn. zm.}
-
 \end{document}

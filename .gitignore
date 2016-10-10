@@ -1,6 +1,5 @@
-CV.aux
-CV.log
-CV.out
-CV.pdf
-CV.synctex.gz
-Cover letters/Samsung/2014-04 Praktyki - Browser/.~lock.cover letter.odt#
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.tex.bak

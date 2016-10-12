@@ -16,7 +16,7 @@
 % if you are not using xelatex ou lualatex, replace by the encoding you are using
 
 % adjust the page margins
-\usepackage[scale=0.8]{geometry}
+\usepackage[scale=0.81]{geometry}
 %\usepackage[scale=0.75]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}
 % if you want to change the width of the column with the dates
@@ -42,35 +42,41 @@
 \makecvtitle
 
 \section{Education}
-\cventry{2012 – 2016}{Bachelor of Computer Science}{University of Warsaw}{Graduation July 2016}{}{}  % arguments 3 to 6 can be left empty
-%\cventry{2016 - 2018}{Master of Science}{University of Warsaw}{Computer Science}{}{}
+\cventry{2016 - now}{Master of Computer Science}{University of Warsaw}{}{}{expected gradutaion date - July 2018}
+\cventry{2012 – 2016}{Bachelor of Computer Science}{University of Warsaw}{}{}{}  % arguments 3 to 6 can be left empty
 %\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
 
 \section{Experience}
 \subsection{Vocational}
+\cventry{Jul 2016 - now}{ConnectPoint}{Software Engineer}{Energy industry software solutions for processing large data volumes. Used for analysis and e.g. detection of undesirable situations}{}{Exemplary technologies: Esri ArcGIS, OSIsoft PI System, Spring MVC, AngularJS}
 \cventry{Jul - Sep 2014}{Samsung Electronics R\&D Institute Poland}{Trainee}{Development of WebKit project for Samsung Smart TV with Tizen OS platform}{}{}
 
 \subsection{Miscellaneous}
-\cventry{2016}{DVP, Data Validation Platform}{(also my Bachelor's thesis)}{Built a complex system for big data processing and storage targeted for the renewable energy market. The platform allowed connecting external modules responsible for refining raw data. For example, the machine learning component can be used to detect wind turbines downtimes}{}{Used technologies: Apache Spark, Apache Ignite, AngularJS, Kafka}
+\cventry{2016}{Data Validation Platform (DVP) - Bachelor's thesis}{}{Built a complex system for big data processing and storage targeted for the renewable energy market. The platform allowed connecting external modules responsible for refining raw data, e.g. the machine learning component can be used to detect wind turbines downtimes}{}{Used technologies: Apache Spark, Apache Ignite, AngularJS, Kafka, RabbitMQ}
 \cventry{2014}{Open Source contributions for WebKit.org project}{Bug fixes related to WebKit development in Samsung R\&D}{}{}{}
 \cventry{2014}{Game development in team of four using Unity 3D engine}{Unity, C\#}{}{}{}
-\cventry{2013}{TCP/IP Client-Server application for transferring data through the network}{C++, Boost libraries}{The application was capable of live streaming audio between clients which could send or receive data}{}{}
+\cventry{2013}{TCP/IP Client-Server application for transferring data through the network}{C++, Boost libraries}{The application was capable of live audio streaming between clients which could send or receive data}{}{}
 %\cventry{2012 – 2013}{Development of simple PC games using Allegro \& Qt Libraries}{C++, Allegro, Qt4}{}{}{}
 %\cventry{2011}{Developing basic MVC framework in PHP}{}{}{}{}
 \cventry{2008 – 2012}{Participation in algorithmic contests including Polish Olympiad in Informatics}{}{}{}{Finalist of the 3rd edition of Olimpiada Informatyczna Gimnazjalistów (2009).}
 
 \section{Languages}
-\cvitemwithcomment{Polish}{Mother tongue}{}
-\cvitemwithcomment{English}{Fluent}{}
-\cvitemwithcomment{German}{Elementary}{}
+
+%\cvitemwithcomment{Polish}{Mother tongue}{}
+%\cvitemwithcomment{English}{Fluent}{}
+%\cvdoubleitem{Polish}{Mother tongue}{English}{Fluent}
+%\cvdoubleitem{German}{Elementary}{Italian}{Elementary}
+
+\cvitemwithcomment{Fluent}{English, Polish (mother tongue)}{}
+\cvitemwithcomment{Elementary}{German, Italian}{}
 
 \section{Skills}
-\cvitem{Programming Languages}{C/C++, Python, Java, JavaScript}{}{}
-\cvitem{Others}{Algorithms \& Data structures, Design patterns, Databases, Networking \& TCP/IP, Django, AngularJS, Twitter Bootstrap, Linux, Bash, Git, Browsers and Web Multimedia, Android}{}{}
+\cvitem{Programming Languages}{C/C++, Python, Java, JavaScript}
+\cvitem{Others}{Algorithms \& Data structures, Design patterns, Databases, Networking \& TCP/IP, Django, AngularJS, Twitter Bootstrap, Scala, Haskell}{}{}
 %\cvdoubleitem{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
 
-\section{Interests}
-\cvitem{}{Jogging \& active lifestyle, cinema, photography, travels}
+%\section{Interests}
+%\cvitem{}{Photography, jogging, cinema, travel}
 %\cvitem{hobby 2}{Description}
 %\cvitem{hobby 3}{Description}
 \end{document}
